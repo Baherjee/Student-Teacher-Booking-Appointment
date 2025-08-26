@@ -1,0 +1,1 @@
+A Student–Teacher Appointment Booking System allows students to schedule meetings with teachers easily. It manages time slots, avoids conflicts, and provides reminders. The system improves communication, saves time, and ensures organized interaction between students and teachers for academic guidance and support.
