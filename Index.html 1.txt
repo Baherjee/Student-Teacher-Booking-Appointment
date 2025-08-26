@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student-Teacher Appointment Booking</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📘 Student–Teacher Appointment Booking</h1>
+    <p>Book and manage appointments easily</p>
+  </header>
+
+  <main class="wrap">
+    <!-- Booking Form -->
+    <section class="form-box">
+      <h2>Book an Appointment</h2>
+      <form id="appointmentForm">
+        <input type="text" id="studentName" placeholder="Student Name" required>
+        <input type="text" id="teacherName" placeholder="Teacher Name" required>
+        <input type="date" id="date" required>
+        <input type="time" id="time" required>
+        <button type="submit" class="btn">Book Appointment</button>
+      </form>
+    </section>
+
+    <!-- Appointments List -->
+    <section class="appointments">
+      <h2>📅 Upcoming Appointments</h2>
+      <table class="table" id="appointmentsTable">
+        <thead>
+          <tr>
+            <th>Student</th>
+            <th>Teacher</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Student–Teacher Booking System | Built for Internship Project</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
